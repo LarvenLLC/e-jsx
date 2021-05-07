@@ -1,4 +1,5 @@
 module.exports = {
+  components: "components/**/*.js",
   webpackConfig: {
     module: {
       rules: [
@@ -10,5 +11,4 @@ module.exports = {
       ],
     },
   },
-  components: "components/**/*.js",
 };
