@@ -3,15 +3,15 @@ A very simple hr jsx element.
 ### Basic hr
 
 ```jsx
-import hr from "./hr";
+import HR from "./hr";
 
-<hr />;
+<HR />;
 ```
 
 ### Vertical hr
 
 ```jsx
-import hr from "./hr";
+import HR from "./hr";
 
-<hr vertical />;
+<HR vertical />;
 ```
