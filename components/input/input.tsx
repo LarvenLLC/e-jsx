@@ -1,18 +1,13 @@
 import * as React from "react";
 
-export type Props = {
+type Props = {
+  format: string;
+  buttonLeft: string;
+  buttonRight: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>, value: string) => void;
 };
 
-export default function Input({ onChange, ...props }: Props) {
-  const styles = {
-    vertical: {
-      display: "inline-block",
-      marginBlock: "auto",
-      marginInline: "0.5em",
-      height: 50,
-    },
-  };
+export default function Input({ format, onChange, ...props }: Props) {
   return (
     <input
       {...props}
