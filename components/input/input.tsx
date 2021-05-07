@@ -1,7 +1,10 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-export default function Input({ onChange, ...props }) {
+type Props = {
+  onChange: (event: React.ChangeEvent<HTMLInputElement>, value: string) => void;
+};
+
+export default function Input({ onChange, ...props }: Props) {
   const styles = {
     vertical: {
       display: "inline-block",
@@ -17,7 +20,3 @@ export default function Input({ onChange, ...props }) {
     />
   );
 }
-
-Input.propTypes = {
-  vertical: PropTypes.bool,
-};
