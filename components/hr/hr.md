@@ -1,6 +1,6 @@
 A very simple hr jsx element.
 
-## Basic hr
+### Basic hr
 
 ```jsx
 import hr from "./hr";
@@ -8,7 +8,7 @@ import hr from "./hr";
 <hr />;
 ```
 
-## Vertical hr
+### Vertical hr
 
 ```jsx
 import hr from "./hr";
