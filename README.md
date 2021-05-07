@@ -22,11 +22,6 @@
 </p>
 
 
-## Bootstrap 4
-
-Our default branch is for development of our upcoming Bootstrap 5 release. Head to the [`v4-dev` branch](https://github.com/twbs/bootstrap/tree/v4-dev) to view the readme, documentation, and source code for Bootstrap 4.
-
-
 ## Table of contents
 
 - [Quick start](#quick-start)
@@ -82,53 +77,12 @@ Read the [Getting started page](https://getbootstrap.com/docs/5.0/getting-starte
 Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
 ```text
-bootstrap/
-├── css/
-│   ├── bootstrap-grid.css
-│   ├── bootstrap-grid.css.map
-│   ├── bootstrap-grid.min.css
-│   ├── bootstrap-grid.min.css.map
-│   ├── bootstrap-grid.rtl.css
-│   ├── bootstrap-grid.rtl.css.map
-│   ├── bootstrap-grid.rtl.min.css
-│   ├── bootstrap-grid.rtl.min.css.map
-│   ├── bootstrap-reboot.css
-│   ├── bootstrap-reboot.css.map
-│   ├── bootstrap-reboot.min.css
-│   ├── bootstrap-reboot.min.css.map
-│   ├── bootstrap-reboot.rtl.css
-│   ├── bootstrap-reboot.rtl.css.map
-│   ├── bootstrap-reboot.rtl.min.css
-│   ├── bootstrap-reboot.rtl.min.css.map
-│   ├── bootstrap-utilities.css
-│   ├── bootstrap-utilities.css.map
-│   ├── bootstrap-utilities.min.css
-│   ├── bootstrap-utilities.min.css.map
-│   ├── bootstrap-utilities.rtl.css
-│   ├── bootstrap-utilities.rtl.css.map
-│   ├── bootstrap-utilities.rtl.min.css
-│   ├── bootstrap-utilities.rtl.min.css.map
-│   ├── bootstrap.css
-│   ├── bootstrap.css.map
-│   ├── bootstrap.min.css
-│   ├── bootstrap.min.css.map
-│   ├── bootstrap.rtl.css
-│   ├── bootstrap.rtl.css.map
-│   ├── bootstrap.rtl.min.css
-│   └── bootstrap.rtl.min.css.map
-└── js/
-    ├── bootstrap.bundle.js
-    ├── bootstrap.bundle.js.map
-    ├── bootstrap.bundle.min.js
-    ├── bootstrap.bundle.min.js.map
-    ├── bootstrap.esm.js
-    ├── bootstrap.esm.js.map
-    ├── bootstrap.esm.min.js
-    ├── bootstrap.esm.min.js.map
-    ├── bootstrap.js
-    ├── bootstrap.js.map
-    ├── bootstrap.min.js
-    └── bootstrap.min.js.map
+e-jsx/
+├── components/
+│   ├── a.js
+│   ├── button.js
+└── other/
+    └── other
 ```
 
 We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). [source maps](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/).
@@ -154,13 +108,6 @@ Documentation search is powered by [Algolia's DocSearch](https://community.algol
 
 Learn more about using Hugo by reading its [documentation](https://gohugo.io/documentation/).
 
-### Documentation for previous releases
-
-You can find all our previous releases docs on <https://getbootstrap.com/docs/versions/>.
-
-[Previous releases](https://github.com/twbs/bootstrap/releases) and their documentation are also available for download.
-
-
 ## Contributing
 
 Please read through our [contributing guidelines](https://github.com/twbs/bootstrap/blob/main/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
@@ -172,34 +119,26 @@ Editor preferences are available in the [editor config](https://github.com/twbs/
 
 ## Community
 
-Get updates on Bootstrap's development and chat with the project maintainers and community members.
+Get updates on E-JSX' development and chat with the project maintainers and community members.
 
-- Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
-- Read and subscribe to [The Official Bootstrap Blog](https://blog.getbootstrap.com/).
-- Join [the official Slack room](https://bootstrap-slack.herokuapp.com/).
-- Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
-- Implementation help may be found at Stack Overflow (tagged [`bootstrap-5`](https://stackoverflow.com/questions/tagged/bootstrap-5)).
-- Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/browse/keyword/bootstrap) or similar delivery mechanisms for maximum discoverability.
+- Join [Discussions](https://github.com/LarvenLLC/e-jsx/discussions) and engage with our community.
+- Share [projects done with E-JSX](https://github.com/LarvenLLC/e-jsx/discussions/1).
+- Developers should use the keyword `e-jsx` on packages which modify or add to the functionality of E-JSX when distributing through [npm](https://www.npmjs.com/browse/keyword/e-jsx) or similar delivery mechanisms for maximum discoverability.
 
 
 ## Versioning
 
 For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
 
-See [the Releases section of our GitHub project](https://github.com/twbs/bootstrap/releases) for changelogs for each release version of Bootstrap. Release announcement posts on [the official Bootstrap blog](https://blog.getbootstrap.com/) contain summaries of the most noteworthy changes made in each release.
+See [the Releases section of our GitHub project](https://github.com/LarvenLLC/e-jsx/releases) for changelogs for each release version of E-JSX.
 
 
 ## Creators
 
-**Mark Otto**
+**Adam Beleko**
 
-- <https://twitter.com/mdo>
-- <https://github.com/mdo>
-
-**Jacob Thornton**
-
-- <https://twitter.com/fat>
-- <https://github.com/fat>
+- <https://twitter.com/adambeleko>
+- <https://github.com/BossBele>
 
 
 ## Thanks
@@ -220,4 +159,5 @@ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com
 
 ## Copyright and license
 
-Code and documentation copyright 2021 the [Bootstrap Authors](https://github.com/twbs/bootstrap/graphs/contributors) and [Twitter, Inc.](https://twitter.com) Code released under the [MIT License](https://github.com/LarveLLC/genie/blob/main/LICENSE). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/).
+Code and documentation copyright 2021 the [E-JSX Authors](https://github.com/LarvenLLC/e-jsx/graphs/contributors). Code released under the [MIT License](https://github.com/LarveLLC/genie/blob/main/LICENSE).
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Documentation is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
