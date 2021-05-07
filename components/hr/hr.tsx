@@ -1,7 +1,10 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-export default function HR({ vertical = false, ...props }) {
+type Props = {
+  vertical: boolean;
+};
+
+export default function HR({ vertical = false, ...props }: Props) {
   const styles = {
     vertical: {
       display: "inline-block",
@@ -12,7 +15,3 @@ export default function HR({ vertical = false, ...props }) {
   };
   return <hr style={vertical ? styles.vertical : {}} {...props} />;
 }
-
-HR.propTypes = {
-  vertical: PropTypes.bool,
-};
