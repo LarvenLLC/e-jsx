@@ -1,6 +1,6 @@
-import React from "react";
+import * as React from "react";
 
-type Props = {
+export type Props = {
   vertical: boolean;
 };
 
