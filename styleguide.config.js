@@ -1,8 +1,8 @@
 module.exports = {
   components: "components/**/*.tsx",
-  propsParser: require("react-docgen-typescript").withDefaultConfig([
-    parserOptions,
-  ]).parse,
+  propsParser: require("react-docgen-typescript").withDefaultConfig({
+    savePropValueAsString: true,
+  }).parse,
   webpackConfig: {
     module: {
       rules: [
