@@ -1,6 +1,6 @@
 A very simple input jsx element.
 
-### Basic hr
+### Basic input
 
 ```jsx
 import Input from "./input";
@@ -8,7 +8,7 @@ import Input from "./input";
 <Input />;
 ```
 
-### onChange hr
+### onChange input
 
 ```jsx
 import Input from "./input";
