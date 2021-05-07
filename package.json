@@ -1,0 +1,23 @@
+{
+  "name": "e-jsx",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <a href=\"https://getbootstrap.com/\">     <img src=\"https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png\" alt=\"Bootstrap logo\" width=\"200\" height=\"165\">   </a> </p>",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarvenLLC/e-jsx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarvenLLC/e-jsx/issues"
+  },
+  "homepage": "https://github.com/LarvenLLC/e-jsx#readme"
+}
