@@ -1,17 +1,17 @@
-A very simple hr jsx element.
+A very simple input jsx element.
 
 ### Basic hr
 
 ```jsx
-import HR from "./hr";
+import Input from "./input";
 
-<HR />;
+<Input />;
 ```
 
-### Vertical hr
+### onChange hr
 
 ```jsx
-import HR from "./hr";
+import Input from "./input";
 
-<HR vertical />;
+<Input onChange={(event) => onChange(event, event.target.value)} />;
 ```
